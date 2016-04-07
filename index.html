@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html ng-app="gifApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Random Gif Generator</title>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <header>
+    <h1> Random Gif Generator</h1>
+  </header>
+  <body ng-controller ="GifController">
+
+    <button ng-click="getGif()">Press for an acurate vision of the future</button>
+    <div>
+      <img ng-src="{{superGif.image_url}}" />
+    </div>
+
+  </body>
+</html>

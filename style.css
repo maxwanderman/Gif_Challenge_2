@@ -1,0 +1,23 @@
+body{
+  background-color: blanchedalmond;
+}
+
+h1 {
+  text-align: center;
+  background-color: rebeccapurple;
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+  height: 35px;
+  padding: 10px;
+}
+
+button{
+  margin-left: 40%;
+}
+
+img{
+  margin-left: 35%;
+  margin-top: 15px;
+  border: 10px solid black;
+  box-shadow: 2px 2px 3px slategray;
+}
